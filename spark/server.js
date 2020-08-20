@@ -31,9 +31,9 @@ app.use(express.json());
 //Upon closure the webhook is removed from spark
 
 //Insert your values here
-const sparkAccessToken ="Place your spark personal access token here";
+const sparkAccessToken ="NWM4OTA2NDctMTY0Mi00ODdiLWEwYWMtNTZlZDJiY2NiNmUxNmUyMDQzN2MtNmVk_PF84_consumer";
 const targetUrl = 'Place you servers URL here';
-const projectId = 'Place your dialogflow projectId here';
+const projectId = 'companyrep-iofn';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
